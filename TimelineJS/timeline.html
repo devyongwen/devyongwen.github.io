@@ -1,0 +1,21 @@
+    <head>
+        <!-- jQuery -->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <!-- BEGIN TimelineJS -->
+        <script type="text/javascript" src="js/storyjs-embed.js"></script>
+        <script>
+            $(document).ready(function() {
+                createStoryJS({
+                    type:       'timeline',
+                    width:      $(window).width(),
+                    height:     '450',
+                    source:     'https://docs.google.com/spreadsheet/pub?key=0Ags94koH5Z_mdGlwamt6TUg1MWVpbnpSMF8wUVRYX1E&output=html',
+                    embed_id:   'my-timeline'
+                });
+            });
+        </script>
+        <!-- END TimelineJS -->
+    </head>
+    <body>  
+        <div id="my-timeline"></div>
+    </body>

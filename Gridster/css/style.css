@@ -1,0 +1,78 @@
+ 
+ul, ol {
+    list-style: none;
+}  
+
+body {
+    font-family: 'Electrolize', sans-serif;
+    background-color: #ff7300; 
+    color: #333;
+    font-weight: 400;
+    font-size: 1em; 
+    overflow: scroll;
+    overflow-x: hidden;
+} 
+
+.gridster {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    list-style: none;
+    text-align: center; 
+ 
+    color: #fff;
+}
+
+.gridster .gs_w {
+    background: #FFF;
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+.gridster .player {
+    -webkit-box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+}
+
+
+.gridster .gs_w.try {
+    background-image: url(../img/sprite.png);
+    background-repeat: no-repeat;
+    background-position: 37px -169px;
+
+}
+
+.gridster .preview-holder {
+    border: none!important;
+    border-radius: 0!important;
+    background: rgba(255,255,255,.2)!important;
+}
+
+.gridster li h3 {
+font-size: 1.6em;
+font-weight: 100;
+}
+
+.rb-temp {
+    display: block;
+    font-size: 1.2em;
+    opacity: 0.5;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.gridster li:nth-child(1) { background: #44BBFF; }
+.gridster li:nth-child(2) { background: #33CCCC; }
+.gridster li:nth-child(3) { background: #996699; }
+.gridster li:nth-child(4) { background: #C24747; }
+.gridster li:nth-child(5) { background: #e2674a; }
+.gridster li:nth-child(6) { background: #FFCC66; }
+.gridster li:nth-child(7) { background: #99CC99; }
+.gridster li:nth-child(8) { background: #669999; }
+.gridster li:nth-child(9) { background: #CC6699; }
+.gridster li:nth-child(10) { background: #339966; }
+.gridster li:nth-child(11) { background: #666699; }
+
+

@@ -1,0 +1,124 @@
+@import url('reset.css');
+body{
+	background:#f9e830 repeat top left;
+	color:#fff; 
+	font-family: 'Electrolize', sans-serif;
+	font-size:12px;
+}
+a{
+	color:#ffffff;
+	text-decoration:none;
+}
+ 
+i{display:inline-block;float:left;margin:5px;height:64px;width:64px;background-size:64px 64px}
+
+i.email{background-color:#666666;background-image:url("https://raw.github.com/heropotato/portfolio/gh-pages/IMAGES/email-64.png");background-repeat:no-repeat}
+
+i.linkedin{background-color:#007FB1;background-image:url("https://raw.github.com/heropotato/portfolio/gh-pages/IMAGES/linkedin-64.png");background-repeat:no-repeat} 
+
+i.github{background-color:#444444;background-image:url("https://raw.github.com/heropotato/portfolio/gh-pages/IMAGES/github-64.png");background-repeat:no-repeat}
+
+i.twitter{background-color:#39A9E0;background-image:url("https://raw.github.com/heropotato/portfolio/gh-pages/IMAGES/tumblr-64.png");background-repeat:no-repeat}
+
+i.facebook{background-color:#3B5998;background-image:url("https://raw.github.com/heropotato/portfolio/gh-pages/IMAGES/facebook-64.png");background-repeat:no-repeat}
+
+i.pinterest{background-color:#CB2027;background-image:url("https://raw.github.com/heropotato/portfolio/gh-pages/IMAGES/pinterest-64.png");background-repeat:no-repeat}
+
+i.instagram{background-color:#3F729B;background-image:url("https://raw.github.com/heropotato/portfolio/gh-pages/IMAGES/instagram-64.png");background-repeat:no-repeat}
+
+i.flickr{background-color:#ED2590;background-image:url("https://raw.github.com/heropotato/portfolio/gh-pages/IMAGES/flickr-64.png");background-repeat:no-repeat}
+
+i.tumblr{background-color:#2C4762;background-image:url("https://raw.github.com/heropotato/portfolio/gh-pages/IMAGES/tumblr-64.png");background-repeat:no-repeat}
+
+.clr{
+	clear:both;
+}
+.container {
+	width:100%;
+	position:relative;
+	z-index:100;
+	margin:40px auto;
+}
+.content {
+	width:1000px;
+	margin:0 auto;
+}
+h1{
+	margin:10px 0 0px 20px;
+	font-size:34px;
+	color:#000;
+	text-shadow:1px 1px 1px #fef7a9;
+	text-transform:uppercase;
+}
+h1 span{
+	font-size:18px;
+	text-transform:none;
+}
+.more ul{
+	text-transform:uppercase;
+	font-size:13px;
+	padding:50px 0px 30px 0px;
+	height:30px;
+	clear:both;
+	width:1000px;
+	margin:10px auto 0 auto;
+	color:#000;
+}
+.more ul li{
+	float:left;
+	margin:0px 2px;
+}
+.more ul li.selected a,
+.more ul li.selected a:hover{
+	background:#000;
+	color:#fff;
+	text-shadow:none;
+}
+.more ul li a{
+	text-shadow:1px 1px 1px #fff;
+	color:#555;
+	background:#f7f7f7;
+	padding:3px 6px;
+	-moz-box-shadow:1px 1px 2px #aaa;
+	-webkit-box-shadow:1px 1px 2px #aaa;
+	box-shadow:1px 1px 2px #aaa;
+}
+.more ul li a:hover{
+	background:#000;
+	color:#fff;
+	text-shadow:none;
+}
+.content{
+	width:100%;
+	position:relative;
+}
+/* Footer Style */
+.header{
+	position:absolute;
+	width:100%;
+	height:25px;
+	line-height:24px;
+	top:0;
+	font-size:13px;
+	background:#000;
+	opacity:0.9;
+	text-transform:uppercase;
+	z-index:4;
+}
+.header a{
+	padding:5px 10px;
+	letter-spacing:1px;
+	text-shadow:1px 1px 1px #000;
+	color:#ddd;
+	text-align:right;
+}
+.header a:hover{
+	color:#fff;
+}
+.header a span{
+	font-weight:bold;
+}
+.header span.right_ab{
+	position:absolute;
+	right:4px;
+}
